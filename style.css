@@ -1,0 +1,165 @@
+/* Fonte principal */
+body {
+  font-family: 'Comme', sans-serif;
+  background-color: #FDF5E6; /* bege claro pastel */
+  color: #a79371; /* tom suave */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #FDF5E6;
+  color: #a79371;
+  text-align: center;
+  padding: 20px;
+  font-family: 'PT Serif', serif;
+}
+
+nav a {
+  color: #a79371;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Seções */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* Texto justificado */
+.texto-justificado,
+.sobre-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: justify;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+}
+
+.texto-justificado p,
+.sobre-container p {
+  margin-bottom: 20px;
+}
+
+/* Seção Sobre mim */
+#sobre {
+  background-color: #FDF5E6;
+  padding: 60px 20px;
+}
+
+#sobre h2 {
+  font-family: 'PT Serif', serif;
+  color: #a79371;
+  margin-bottom: 30px;
+}
+
+/* Catálogo */
+.catalogo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px 20px;
+}
+
+.card {
+  background-color: #FDF5E6;
+  border: 2px solid #a79371;
+  padding: 25px;
+  width: 240px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  flex: 0 1 240px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px #a79371;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 15px;
+}
+
+
+/* Banner */
+#catalogo-banner,
+#consultas-banner {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.banner {
+  max-width: 100%;
+  width: 600px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.banner:hover {
+  transform: scale(1.02);
+}
+
+/* Botões */
+button, .btn {
+  background-color: #d0c4b6;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover, .btn:hover {
+  background-color: #a79371;
+}
+
+/* Rodapé */
+footer {
+  background-color: #a79371;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+}
+
+/* Botão WhatsApp */
+.whatsapp-btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: #25D366;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-btn:hover {
+  background-color: #1ebe5d;
+}
+
+.whatsapp-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
