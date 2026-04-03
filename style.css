@@ -95,7 +95,6 @@ section {
   margin-bottom: 15px;
 }
 
-
 /* Banner */
 #catalogo-banner,
 #consultas-banner {
@@ -162,4 +161,57 @@ footer {
   width: 24px;
   height: 24px;
   margin-right: 10px;
+}
+
+.instagram-btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: #E1306C; /* rosa Instagram */
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin-left: 12px; /* separa do WhatsApp */
+}
+
+.instagram-btn:hover {
+  background-color: #c72a5d;
+}
+
+.instagram-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+/* ========================= */
+/* Ajustes para telas menores */
+/* ========================= */
+@media (max-width: 768px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+
+  .catalogo {
+    gap: 20px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .banner {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  button, .btn, .whatsapp-btn {
+    padding: 10px 16px;
+    font-size: 0.9rem;
+  }
 }
